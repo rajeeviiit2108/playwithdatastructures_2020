@@ -8,6 +8,7 @@ public class MergeSort
 		int arr[] = {12, 11, 13, 5, 6, 7};
 		new MergeSort().mergerSortAlgo(arr, 0, arr.length-1);
 		System.out.println(Arrays.toString(arr));
+		System.out.println("Testing");
 	}
 	
 	private void mergerSortAlgo(int [] arr, int low, int high)
